@@ -1,0 +1,32 @@
+:root {
+  --anchor-line-gap: 2px;
+}
+
+.anchor {
+  width: var(--anchor-width);
+  display: flex;
+  flex-direction: column;
+  gap: var(--anchor-line-gap);
+  color: #fff;
+}
+
+.anchor-block-title {
+  height: var(--anchor-line-height);
+  overflow: hidden;
+  background-color: #dc6;
+}
+
+.anchor-value {
+}
+
+.anchor-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--anchor-line-height);
+  overflow: hidden;
+  background-color: #cd6;
+}
+
+.anchor-label {
+}
