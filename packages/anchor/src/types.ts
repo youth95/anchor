@@ -16,6 +16,10 @@ export interface AnchorItem {
 }
 
 export interface AnchorProps {
+  // 名字
+  label: string
   // 配置值
   value: AnchorItem[]
+  // 是否为根
+  isRoot?: boolean
 }

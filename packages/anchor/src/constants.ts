@@ -8,3 +8,4 @@ export const NODE_TYPE_ANCHOR = 'anchor'
 export const nodeTypes: NodeTypes = {
   [NODE_TYPE_ANCHOR]: Anchor
 }
+

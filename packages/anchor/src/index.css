@@ -1,7 +1,3 @@
-:root {
-  --anchor-line-gap: 2px;
-}
-
 .anchor {
   width: var(--anchor-width);
   display: flex;
@@ -12,8 +8,8 @@
 
 .anchor-block-title {
   height: var(--anchor-line-height);
-  overflow: hidden;
   background-color: #dc6;
+  position: relative;
 }
 
 .anchor-value {
@@ -24,8 +20,15 @@
   justify-content: space-between;
   align-items: center;
   height: var(--anchor-line-height);
-  overflow: hidden;
+  position: relative;
+}
+
+.anchor-value-item {
   background-color: #cd6;
+}
+
+.anchor-ref-item {
+  background-color: rgb(102, 221, 108);
 }
 
 .anchor-label {
